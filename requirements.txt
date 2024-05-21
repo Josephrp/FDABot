@@ -1,6 +1,6 @@
 # Utilities
 
- beautifulsoup4
+python-dotenv
 
 # streamlit x arctic
 
