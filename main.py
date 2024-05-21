@@ -29,7 +29,7 @@ from llama_index.core import StorageContext, load_index_from_storage
 
 load_dotenv()
 # print(st.secrets["REPLICATE_API_TOKEN"])
-os.environ["REPLICATE_API_TOKEN"] == st.secrets["REPLICATE_API_TOKEN"]
+# os.environ["REPLICATE_API_TOKEN"] == st.secrets["REPLICATE_API_TOKEN"]
 # rebuild storage context
 storage_context = StorageContext.from_defaults(persist_dir="storage")
 
